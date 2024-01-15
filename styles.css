@@ -29,12 +29,25 @@ body{
     background-color: #073745;
     color: #F7EBDF;
     font-family: 'laila-regular';
+    font-size: 18px;
 }
 
 b {
     font-family: 'laila-bold';
     color: #F47F11;
 }
+
+h1 {
+    font-family: 'stylish-regular';
+    font-size: 45px;
+}
+
+h2 {
+    font-family: 'stylish-regular';
+    font-size: 30px;
+}
+
+h3 {font-size: 22px;}
 
 hr {margin: 1.5rem;}
 
@@ -100,7 +113,7 @@ a:hover{
     font-size: 1.1em;
 }
 
-/* Dropdown menu styles */
+/* dropdown menu */
 .menu-button {
     font-size: 16px;
     border: none;
@@ -169,25 +182,14 @@ a:hover{
     border-radius: 48%;
 }
 
-.home-info {
-    margin-right: 3rem;
-}
-
-h1 {
-    font-family: 'stylish-regular';
-    font-size: 45px;
-}
-
-.home-info h3 {
-    font-size: 22px;
-}
+.home-info {margin-right: 3rem;}
 
 /* about section stylings */
 .about-container {
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 6rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
-.about-container h1 {
-    text-align: center;
-}
+.about-container h1 {text-align: center;}
