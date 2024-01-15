@@ -4,35 +4,64 @@
     <meta charset="UTF-8">
     <!--<meta name="keywords" content="Natalie Cheng, Natalie Rie Cheng">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./media/NC dark.png">
     <link rel="stylesheet" href="styles.css">
     <title>Natalie Cheng</title>
 </head>
 <body>
+    <!-- Header -->
     <header>
         <div class="logo" onclick="location.href='index.html';" style="cursor: pointer;">
             Natalie Rie Cheng
         </div>
-        <nav>
+        <!-- Widescreen nav bar-->
+        <div> <nav>
             <ul>
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
-                <li><a href="#contact">Resume</a></li>
+                <li><a href="#resume">Resume</a></li>
             </ul>
         </nav>
+        <!-- Converts to menu dropdown for small screen/mobile -->
+        <div class="dropdown">
+            <button onclick="myFunction()" class="menu-button">&#9776;</button>
+            <div id="menu-drop" class="menu-content">
+              <a class="active" href="index.html">Home</a>
+              <a href="#about">About</a>
+              <a href="projects.html">Projects</a>
+              <a href="#resume">Resume</a>
+            </div>
+        </div>
+        <script src="./scripts/menu.js"></script> </div>
     </header>
     
 
     <!-- Home Section -->
     <section id="home">
-        <h2>Hi, I'm Natalie</h2>
-        <p>this is a website</p>
+        <div class="home-container">
+            <div class="self-image">
+                <img src="./media/Natalie Cheng.jpg" alt="Natalie Rie Cheng">
+            </div>
+            <div class="home-info">
+                <h1>Hi, I'm Natalie!</h1>
+                <h3>I'm a second-year at Northwestern University, studying <b>Computer Science</b> with certificate in <b>Human-Computer Interaction</b> and a minor in <b>Classics</b>.</h3>
+                <p>Email: nataliecheng2026@u.northwestern.edu</p>
+                <p>Github: github.com/natalie-cheng</p>
+                <p>Linkedin: linkedin.com/in/nataliercheng/</p>
+                <!--add buttons to about and projects-->
+            </div>
+        </div>
     </section>
+
+    <hr>
 
     <!-- About Section -->
     <section id="about">
-        <h2>About Me</h2>
-        <p>some information i guess</p>
+        <div class="about-container">
+            <h1>About Me</h1>
+            <p>some stuff</p>
+        </div>
     </section>
 
 </body>
