@@ -9,21 +9,22 @@
     <title>Natalie Cheng</title>
 </head>
 <body>
-    <!-- Header -->
+    <script src="./scripts/fade.js"></script>
+    <!-- header -->
     <header>
         <div class="logo" onclick="location.href='index.html';" style="cursor: pointer;">
             Natalie Rie Cheng
         </div>
-        <!-- Widescreen nav bar-->
+        <!-- widescreen nav bar-->
         <div class="navbar"> <nav>
             <ul>
                 <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
-                <li><a href="#resume">Resume</a></li>
+                <li><a href="./media/natalie-cheng-resume.pdf" target="_blank">Resume</a></li>
             </ul>
         </nav>
-        <!-- Converts to menu dropdown for small screen/mobile -->
+        <!-- converts to menu dropdown for small screen/mobile -->
         <div class="dropdown">
             <div onclick="myFunction()" class="menu-button" id="menu">
                 <div class="bar1"></div>
@@ -34,22 +35,25 @@
               <a class="active" href="index.html">Home</a>
               <a href="#about">About</a>
               <a href="projects.html">Projects</a>
-              <a href="#resume">Resume</a>
+              <a href="./media/natalie-cheng-resume.pdf" target="_blank">Resume</a>
             </div>
         </div>
         <script src="./scripts/menu.js"></script> </div>
+        <script src="./scripts/scroll.js" defer></script>
     </header>
     
 
-    <!-- Home Section -->
+    <!-- home section -->
     <section id="home">
         <article class="home-container">
+            <!-- picture of self-->
             <span class="self-image">
                 <img src="./media/Natalie Cheng.jpg" alt="Natalie Rie Cheng">
             </span>
             <span class="home-info">
                 <h1>Hi, I'm Natalie!</h1>
                 <h3>I'm a second-year at Northwestern University, studying <b>Computer Science</b> with a certificate in <b>Human-Computer Interaction</b> and a minor in <b>Classics</b>.</h3>
+                <!-- socials buttons-->
                 <div class="social-buttons">
                     <a href="mailto:nataliecheng2026@u.northwestern.edu" target="_blank" class="social-button">
                         <img src="./media/mail-icon.png" alt="Email">
@@ -69,8 +73,9 @@
         </article>
     </section>
 
-    <!-- About Section -->
+    <!-- about section -->
     <section id="about">
+        <div style="height:10px"></div>
         <hr>
         <article class="about-container">
             <h1>About Me</h1>

@@ -4,15 +4,13 @@ in progress! just a way to explore and practice frontend skills :)
 [website link](https://natalie-cheng.github.io/my-site/)
 
 ## to do:
-- add resume
 - about section content (pictures?)
-- smooth page transitions
 - projects pages content
 - reformat for mobile
 
 ### bugs:
-- realign header nav bar and logo
-- fix hamburger menu
+- fix hamburger menu sometimes not appearing
+- projects->about transition
 
 ## in progress
 - clean up css code
@@ -28,3 +26,8 @@ in progress! just a way to explore and practice frontend skills :)
 - projects page framework
 - add socials buttons
 - add home section buttons (about, project)
+- added scroll and fade page transitions
+- added resume
+- fix header alignment bug
+- added background
+- fixed about section horizontal line

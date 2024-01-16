@@ -3,37 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./media/NCdark.png">
     <link rel="stylesheet" href="styles.css">
     <title>Natalie Cheng</title>
 </head>
+<script src="./scripts/scroll.js" defer></script>
 <body>
+    <script src="./scripts/fade.js"></script>
+    <!-- header -->
     <header>
         <div class="logo" onclick="location.href='index.html';" style="cursor: pointer;">
             Natalie Rie Cheng
         </div>
-        <div class="navbar"><nav>
+        <!-- widescreen nav bar-->
+        <div class="navbar"> <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="index.html#about">About</a></li>
                 <li><a class="active" href="projects.html">Projects</a></li>
-                <li><a href="#resume">Resume</a></li>
+                <li><a href="./media/natalie-cheng-resume.pdf" target="_blank">Resume</a></li>
             </ul>
-        </nav></div>
+        </nav>
+        <!-- converts to menu dropdown for small screen/mobile -->
+        <div class="dropdown">
+            <div onclick="myFunction()" class="menu-button" id="menu">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div id="menu-drop" class="menu-content">
+              <a href="index.html">Home</a>
+              <a href="index.html#about">About</a>
+              <a class="active" href="projects.html">Projects</a>
+              <a href="./media/natalie-cheng-resume.pdf" target="_blank">Resume</a>
+            </div>
+        </div>
+        <script src="./scripts/menu.js"></script> </div>
+        <script src="./scripts/scroll.js" defer></script>
     </header>
 
+    <!-- projects list -->
     <div class="projects-header">
         <h1>Projects</h1>
         <h3>These are some of my projects.</h3>
     </div>
 
     <div class="projects-container">
-        <article class="project-block" onclick="location.href='./projects/sleigh-santa.html';">
-            <h2>Sleigh, Santa!</h2>
-            <p>Sleigh, Santa! is a 2D game final project for CS 376.</p>
-        </article>
-
         <article class="project-block" onclick="location.href='./projects/skys-odyssey.html';">
             <h2>Sky's Odyssey</h2>
+            <p>Sky's Odyssey is a 2D platform game I made for CS 376.</p>
+        </article>
+
+        <article class="project-block" onclick="location.href='./projects/sleigh-santa.html';">
+            <h2>Sleigh, Santa!</h2>
             <p>insert description</p>
         </article>
 

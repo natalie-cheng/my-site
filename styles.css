@@ -28,11 +28,19 @@
 }
 
 body{
-    background-color: var(--background-color);
+    opacity: 1;
+    /* background-color: var(--background-color); */
+    background-image: url(./media/background.png);
+    background-size: cover;
+    background-attachment: fixed;
     color: var(--text-color);
     font-family: 'laila-regular';
     font-size: 18px;
+    transition-duration: 0.5s;
+    transition-property: opacity;
 }
+
+body.fade {opacity: 0;}
 
 b {
     font-family: 'laila-bold';
@@ -87,6 +95,11 @@ li:not(:last-child)::after {
     background-color: var(--text-color);
     right: 0;
     top: 20%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
 }
 
 .navbar a {
@@ -241,9 +254,9 @@ li:not(:last-child)::after {
 /* about section stylings */
 .about-container {
     margin-top: 3rem;
-    margin-bottom: 6rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-bottom: 20rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .about-container h1 {text-align: center;}
@@ -251,6 +264,8 @@ li:not(:last-child)::after {
 /* projects page stylings */
 .projects-header {
     text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 .projects-container {
