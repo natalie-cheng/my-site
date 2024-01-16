@@ -1,4 +1,5 @@
 function myFunction() {
+    document.getElementById("menu").classList.toggle("change");
     document.getElementById("menu-drop").classList.toggle("show");
   }
   

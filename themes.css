@@ -1,0 +1,19 @@
+
+/* default dark theme */
+:root {
+    --background-color: #073745;
+    --background-alt: #062935;
+    --background-alt2: #215565;
+    --text-color: #F7EBDF;
+    --accent1: #F47F11;
+    --accent2: #45575C;
+    --accent3: #BE4DD2;
+    --accent3L: #82528A;
+}
+
+/* light theme */
+.light-theme {
+    --background-color: #1a1a1a;
+    --text-color: #ffffff;
+    --link-color: #4e90e2;
+}
