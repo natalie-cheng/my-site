@@ -14,10 +14,10 @@ in progress! just a way to explore and practice frontend skills :)
 
 ## in progress
 - clean up css code
-- individual project page framework
+- WRITE ACTUAL PAGE CONTENT INSTEAD PROCRASTINATING BY CODING NAT
 
 ## completed:
-- pages framework
+- website pages framework
 - header
 - adjust header for mobile
 - choose theme colors/font
@@ -31,3 +31,6 @@ in progress! just a way to explore and practice frontend skills :)
 - fix header alignment bug
 - added background
 - fixed about section horizontal line
+- project page framework?
+    - (realized it's pretty unique, have to write page content first)
+    - set up project page framework
