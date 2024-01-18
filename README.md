@@ -15,6 +15,7 @@ in progress! just a way to explore and practice frontend skills :)
 - add alts and descriptions for pictures
 - adjust formatting for project pages
 - organize media folder cuz it's a mess
+- add hyperlinks
 
 ### bugs:
 - fix hamburger menu sometimes not appearing
@@ -23,7 +24,6 @@ in progress! just a way to explore and practice frontend skills :)
 ## in progress
 - clean up css code
 - WRITE ACTUAL PAGE CONTENT INSTEAD PROCRASTINATING BY CODING NAT
-- 
 
 ## completed:
 - website pages framework
@@ -44,3 +44,7 @@ in progress! just a way to explore and practice frontend skills :)
     - (realized it's pretty unique, have to write page content first)
     - set up project page framework
 - skys odyssey content
+- pac-o-lantern content
+- sleigh santa content
+- pollution project content
+- aim buddy content
