@@ -5,8 +5,16 @@ in progress! just a way to explore and practice frontend skills :)
 
 ## to do:
 - about section content (pictures?)
-- projects pages content
+- musicnu content
+- gesturecraft content
+- adjust pollution-project page
+    - add features?
+- add demo video to aim buddy page?
+- fulcrum description
 - reformat for mobile
+- add alts and descriptions for pictures
+- adjust formatting for project pages
+- organize media folder cuz it's a mess
 
 ### bugs:
 - fix hamburger menu sometimes not appearing
@@ -15,6 +23,7 @@ in progress! just a way to explore and practice frontend skills :)
 ## in progress
 - clean up css code
 - WRITE ACTUAL PAGE CONTENT INSTEAD PROCRASTINATING BY CODING NAT
+- 
 
 ## completed:
 - website pages framework
@@ -34,3 +43,4 @@ in progress! just a way to explore and practice frontend skills :)
 - project page framework?
     - (realized it's pretty unique, have to write page content first)
     - set up project page framework
+- skys odyssey content
