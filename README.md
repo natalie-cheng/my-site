@@ -3,19 +3,23 @@
 in progress! just a way to explore and practice frontend skills :)   
 [website link](https://natalie-cheng.github.io/my-site/)
 
+## urgent to do:
+- about section content
+- fulcrum gt description
+- gesturecraft content
+- add hyperlinks
+- featured projects section
+
 ## to do:
 - about section content (pictures?)
-- musicnu content
-- gesturecraft content
+- musicnu expand description
 - adjust pollution-project page
     - add features?
 - add demo video to aim buddy page?
-- fulcrum description
 - reformat for mobile
 - add alts and descriptions for pictures
 - adjust formatting for project pages
 - organize media folder cuz it's a mess
-- add hyperlinks
 
 ### bugs:
 - fix hamburger menu sometimes not appearing
@@ -48,3 +52,4 @@ in progress! just a way to explore and practice frontend skills :)
 - sleigh santa content
 - pollution project content
 - aim buddy content
+- reworked website framework

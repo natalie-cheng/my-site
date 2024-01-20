@@ -18,7 +18,7 @@
         <div class="navbar"> <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#about">About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a class="active" href="projects.html">Projects</a></li>
                 <li><a href="./media/natalie-cheng-resume.pdf" target="_blank">Resume</a></li>
             </ul>
@@ -32,7 +32,7 @@
             </div>
             <div id="menu-drop" class="menu-content">
               <a href="index.html">Home</a>
-              <a href="index.html#about">About</a>
+              <a href="about.html">About</a>
               <a class="active" href="projects.html">Projects</a>
               <a href="./media/natalie-cheng-resume.pdf" target="_blank">Resume</a>
             </div>
@@ -42,32 +42,21 @@
     <!-- projects list -->
     <div class="projects-header">
         <h1>Projects</h1>
-        <h3>These are some of my projects.</h3>
     </div>
-
-    <div class="flex-box">
-        <article class="project-block" onclick="location.href='./projects/skys-odyssey.html';">
-            <h2>Sky's Odyssey</h2>
-            <p>A 2D platform video game following Sky, a lost elemental sprite and her journey to get home.</p>
-            <p style="color: var(--accent1);font-family: 'laila-bold';">#csharp | #unity | #game-design</p>
-        </article>
-
-        <article class="project-block" onclick="location.href='./projects/musicnu.html';">
-            <h2>MusicNU</h2>
-            <p>A research project within the TIILT Lab developing an interactive website that visualizes song rhythm, melody, and chords to teach music theory.</p>
-            <p style="color: var(--accent1);font-family: 'laila-bold';">#team | #react.js | #node.js</p>
-        </article>
-
+    <div class="project-type">
+        <h2>Games</h2>
+    </div>
+    <div class="flex-box" style="padding-top:0;">
         <article class="project-block" onclick="location.href='./projects/sleigh-santa.html';">
             <h2>Sleigh, Santa!</h2>
             <p>A 2D arcade video game where you play Santa and try to deliver all the gifts in time for the holidays.</p>
             <p style="color: var(--accent1);font-family: 'laila-bold';">#csharp | #unity | #game-design</p>
         </article>
 
-        <article class="project-block" onclick="location.href='./projects/aim-buddy.html';">
-            <h2>Aim Buddy: Adaptive Xbox Controller</h2>
-            <p>A quarter-long team project developing a game controller solution for an upper-arm amputee.</p>
-            <p style="color: var(--accent1);font-family: 'laila-bold';">#team | #client-based | #design</p>
+        <article class="project-block" onclick="location.href='./projects/skys-odyssey.html';">
+            <h2>Sky's Odyssey</h2>
+            <p>A 2D platform video game following Sky, a lost elemental sprite and her journey to get home.</p>
+            <p style="color: var(--accent1);font-family: 'laila-bold';">#csharp | #unity | #game-design</p>
         </article>
 
         <article class="project-block" onclick="location.href='./projects/pac-o-lantern.html';">
@@ -76,16 +65,39 @@
             <p style="color: var(--accent1);font-family: 'laila-bold';">#csharp | #unity | #game-design</p>
         </article>
 
+    </div>
+
+    <div class="project-type">
+        <h2>Research</h2>
+    </div>
+    <div class="flex-box" style="padding-top:0;">
+        <article class="project-block" onclick="location.href='./projects/musicnu.html';">
+            <h2>MusicNU</h2>
+            <p>A research project within the TIILT Lab developing an interactive website that visualizes song rhythm, melody, and chords to teach music theory.</p>
+            <p style="color: var(--accent1);font-family: 'laila-bold';">#team | #react.js | #node.js</p>
+        </article>
+
         <article class="project-block" onclick="location.href='./projects/gesturecraft.html';">
             <h2>Gesturecraft</h2>
             <p>A research project within the TIILT Lab developing a gesture-based interface to allows users to adaptively play Minecraft.</p>
             <p style="color: var(--accent1);font-family: 'laila-bold';">#team | #python | #mediapipe</p>
         </article>
+    </div>
 
+    <div class="project-type">
+        <h2>Other</h2>
+    </div>
+    <div class="flex-box" style="padding-top:0;">
         <article class="project-block" onclick="location.href='./projects/fulcrum-gt.html';">
             <h2>Software Engineering Intern @ Fulcrum GT</h2>
             <p>Software Engineering internship during Summer 2023.</p>
             <p style="color: var(--accent1);font-family: 'laila-bold';">#internship | #UI/UX | #design</p>
+        </article>
+
+        <article class="project-block" onclick="location.href='./projects/aim-buddy.html';">
+            <h2>Aim Buddy: Adaptive Xbox Controller</h2>
+            <p>A quarter-long team project developing a game controller solution for an upper-arm amputee.</p>
+            <p style="color: var(--accent1);font-family: 'laila-bold';">#team | #client-based | #design</p>
         </article>
 
         <article class="project-block" onclick="location.href='./projects/pollution-project.html';">
@@ -93,7 +105,6 @@
             <p>An analysis of US pollution data detailing historical trends and future predictions. Capstone Project with CoderSchool.</p>
             <p style="color: var(--accent1);font-family: 'laila-bold';">#python | #data-analysis | #machine-learning | #scikit-learn</p>
         </article>
-
     </div>
 
     <!-- footer -->

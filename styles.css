@@ -183,7 +183,7 @@ header .logo {
 .show {display: block;}
 
 @media (max-width: 900px) {
-    ul {display: none;}
+    .navbar ul {display: none;}
     .menu-button {display: block;}
 }
 
@@ -193,7 +193,7 @@ header .logo {
     align-items: center;
     justify-content: center;
     margin-top: 2.5rem;
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
 }
 
 .self-image {
@@ -242,6 +242,8 @@ header .logo {
     border: 1px solid var(--text-color);
     font-family: 'laila-bold';
     padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-right: 5rem;
     text-decoration: none;
     color: var(--text-color);
@@ -273,6 +275,16 @@ header .logo {
     text-align: center;
     margin-left: 10rem;
     margin-right: 10rem;
+    margin-bottom: 3rem;
+}
+
+.project-type{
+    text-align: center;
+}
+
+.project-type h2 {
+    font-size: 34px;
+    margin: 0;
 }
 
 .flex-box {

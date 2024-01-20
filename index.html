@@ -19,7 +19,7 @@
         <div class="navbar"> <nav>
             <ul>
                 <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="./media/natalie-cheng-resume.pdf" target="_blank">Resume</a></li>
             </ul>
@@ -33,7 +33,7 @@
             </div>
             <div id="menu-drop" class="menu-content">
               <a class="active" href="index.html">Home</a>
-              <a href="#about">About</a>
+              <a href="about.html">About</a>
               <a href="projects.html">Projects</a>
               <a href="./media/natalie-cheng-resume.pdf" target="_blank">Resume</a>
             </div>
@@ -51,7 +51,7 @@
             <span class="home-info">
                 <h1>Hi, I'm Natalie!</h1>
                 <h3>I'm a second-year at Northwestern University, studying <b>Computer Science</b> with a certificate in <b>Human-Computer Interaction</b> and a minor in <b>Classics</b>.</h3>
-                <h3>I'm passionate about software/video game development, digital/user design, and furthering accessibility and education in technology.</h3>
+                <h3>I'm passionate about software and video game development, user design, and furthering accessibility and education in technology.</h3>
                 <!-- socials buttons-->
                 <div class="social-buttons">
                     <a href="mailto:nataliecheng2026@u.northwestern.edu" target="_blank" class="social-button">
@@ -65,29 +65,36 @@
                     </a>
                 </div>
                 <div class="homepage-buttons">
-                    <a href="#about">About Me &darr;</a>
-                    <a href="projects.html">Projects</a>
+                    <a href="#featured">Projects &darr;</a>
                 </div>
             </span>
         </article>
     </section>
 
     <!-- about section -->
-    <section id="about">
+    <section id="featured">
         <div style="height:10px"></div>
         <hr>
-        <article class="text-box">
-            <h1>About Me</h1>
-            <p>Hello! I’m a second-year at Northwestern University pursuing a B.S. in Computer Science with a minor in Classics and certificate in Human-Computer Interaction. I’m an undergraduate researcher at Northwestern’s Technological Innovations for 
-                Inclusive Learning & Teaching Lab (TIILT) and a web developer for the Northwestern Undergraduate Research Journal (NURJ). This past summer, I worked as a Software Engineering intern at Fulcrum Global Technologies in Chicago, IL.</p>
-            <p>skills - i’m proficient in x languages</p>
-            <p>I love xxx and I’m interested in doing xxxx. this is shown my xxx projects. frontend -> web dev, game design -> course sequence</p>
-            <p>Interested in supporting accessibility in tech and STEM education in underrepresented groups, which I why I chose to work at TIILT, who’s mission is to xxx. At TIILT, I’m working on the xxx projects, which do xxx.</p>
-            <p>you can check out more of my projects here!</p>
-            <p>Outside of my academic and professional interests, I have plenty of hobbies to fill my free time! I love playing the guitar and writing songs, cooking for my roommates, performing aerial silks, and playing video games (my all-time favorites 
-                are Skyrim, RDR 2, Genshin Impact, and Stardew Valley). I’m from Hong Kong and Singapore, and despite the distance, I love the cross-cultural nature of studying abroad in the US.</p>
-            <p>Feel free to contact me at <a href="mailto:nataliecheng2026@u.northwestern.edu" target="_blank">nataliecheng2026@u.northwestern.edu</a></p>
-        </article>
+        <div class="text-box"><h1>Featured Projects</h1></div>
+        <div class="flex-box" style="padding-top:0;">
+            <article class="project-block" onclick="location.href='./projects/sleigh-santa.html';">
+                <h2>Sleigh, Santa!</h2>
+                <p>A 2D arcade video game where you play Santa and try to deliver all the gifts in time for the holidays.</p>
+                <p style="color: var(--accent1);font-family: 'laila-bold';">#csharp | #unity | #game-design</p>
+            </article>
+    
+            <article class="project-block" onclick="location.href='./projects/skys-odyssey.html';">
+                <h2>Sky's Odyssey</h2>
+                <p>A 2D platform video game following Sky, a lost elemental sprite and her journey to get home.</p>
+                <p style="color: var(--accent1);font-family: 'laila-bold';">#csharp | #unity | #game-design</p>
+            </article>
+    
+            <article class="project-block" onclick="location.href='./projects/pac-o-lantern.html';">
+                <h2>Pac-O-Lantern</h2>
+                <p>A 2D arcade video game inspired by pac-man, where you play a pumpkin and collect candy in a maze.</p>
+                <p style="color: var(--accent1);font-family: 'laila-bold';">#csharp | #unity | #game-design</p>
+            </article>
+        </div>
     </section>
 
     <!-- footer -->
