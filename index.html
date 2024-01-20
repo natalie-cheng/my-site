@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Natalie Cheng</title>
 </head>
-<!-- hello cool person who decided to read my code lol :) -->
+<!-- hello cool person who decided to read my code :) -->
 <body>
     <!-- header -->
     <header>
@@ -66,34 +66,50 @@
                 </div>
                 <div class="homepage-buttons">
                     <a href="#featured">Projects &darr;</a>
+                    <a href="#resume">Resume &darr;</a>
                 </div>
             </span>
         </article>
     </section>
 
-    <!-- about section -->
+    <!-- featured section -->
     <section id="featured">
         <div style="height:10px"></div>
         <hr>
-        <div class="text-box"><h1>Featured Projects</h1></div>
-        <div class="flex-box" style="padding-top:0;">
+        <div class="text-box"><h1 style="text-align: center;">Featured Projects</h1></div>
+        <div class="flex-box" style="padding-top:0; padding-bottom: 8rem;">
             <article class="project-block" onclick="location.href='./projects/sleigh-santa.html';">
                 <h2>Sleigh, Santa!</h2>
                 <p>A 2D arcade video game where you play Santa and try to deliver all the gifts in time for the holidays.</p>
+                <img src="./media/sleigh-santa-play1.png">
                 <p style="color: var(--accent1);font-family: 'laila-bold';">#csharp | #unity | #game-design</p>
             </article>
     
             <article class="project-block" onclick="location.href='./projects/skys-odyssey.html';">
                 <h2>Sky's Odyssey</h2>
                 <p>A 2D platform video game following Sky, a lost elemental sprite and her journey to get home.</p>
+                <img src="./media/skys-odyssey-play1.png">
                 <p style="color: var(--accent1);font-family: 'laila-bold';">#csharp | #unity | #game-design</p>
             </article>
     
             <article class="project-block" onclick="location.href='./projects/pac-o-lantern.html';">
                 <h2>Pac-O-Lantern</h2>
                 <p>A 2D arcade video game inspired by pac-man, where you play a pumpkin and collect candy in a maze.</p>
+                <img src="./media/pac-o-lantern-play.png">
                 <p style="color: var(--accent1);font-family: 'laila-bold';">#csharp | #unity | #game-design</p>
             </article>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div style="height:10px"></div>
+        <hr>
+        <div style="text-align: center;">
+            <div class="text-box">
+                <h1 style="margin-bottom: 0;">Resume</h1>
+                <p style="margin-top: 0;"> If the PDF is not displaying correctly, please click here.</p>
+            </div>
+            <iframe src="../media/natalie-cheng-resume.pdf#toolbar=0" width="800" height="1030px" style="border: none;"></iframe>
         </div>
     </section>
 

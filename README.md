@@ -8,10 +8,9 @@ in progress! just a way to explore and practice frontend skills :)
 - fulcrum gt description
 - gesturecraft content
 - add hyperlinks
-- featured projects section
 
 ## to do:
-- about section content (pictures?)
+- about section pictures?
 - musicnu expand description
 - adjust pollution-project page
     - add features?
@@ -20,6 +19,7 @@ in progress! just a way to explore and practice frontend skills :)
 - add alts and descriptions for pictures
 - adjust formatting for project pages
 - organize media folder cuz it's a mess
+- add emphasis
 
 ### bugs:
 - fix hamburger menu sometimes not appearing
@@ -53,3 +53,4 @@ in progress! just a way to explore and practice frontend skills :)
 - pollution project content
 - aim buddy content
 - reworked website framework
+- added featured and inline resume
