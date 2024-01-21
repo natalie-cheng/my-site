@@ -1,13 +1,11 @@
 # Nat's Website
 
 in progress! just a way to explore and practice frontend skills :)   
-[website link](https://natalie-cheng.github.io/my-site/)
+[website link](https://www.nataliercheng.com/)
 
 ## urgent to do:
-- about section content
 - fulcrum gt description
 - gesturecraft content
-- add hyperlinks
 
 ## to do:
 - about section pictures?
@@ -19,11 +17,10 @@ in progress! just a way to explore and practice frontend skills :)
 - add alts and descriptions for pictures
 - adjust formatting for project pages
 - organize media folder cuz it's a mess
-- add emphasis
+- add emphasis text
 
 ### bugs:
 - fix hamburger menu sometimes not appearing
-- projects->about transition
 
 ## in progress
 - clean up css code
@@ -54,3 +51,5 @@ in progress! just a way to explore and practice frontend skills :)
 - aim buddy content
 - reworked website framework
 - added featured and inline resume
+- about section content
+- added hyperlinks

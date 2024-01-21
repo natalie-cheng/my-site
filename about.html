@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <!--<meta name="keywords" content="Natalie Cheng, Natalie Rie Cheng">-->
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Natalie Cheng</title>
 </head>
+
 <body>
     <!-- header -->
     <header>
@@ -15,41 +17,55 @@
             Natalie Rie Cheng
         </div>
         <!-- widescreen nav bar-->
-        <div class="navbar"> <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a class="active" href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="./media/natalie-cheng-resume.pdf" target="_blank">Resume</a></li>
-            </ul>
-        </nav>
-        <!-- converts to menu dropdown for small screen/mobile -->
-        <div class="dropdown">
-            <div onclick="myFunction()" class="menu-button" id="menu">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="./media/natalie-cheng-resume.pdf" target="_blank">Resume</a></li>
+                </ul>
+            </nav>
+            <!-- converts to menu dropdown for small screen/mobile -->
+            <div class="dropdown">
+                <div onclick="myFunction()" class="menu-button" id="menu">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <div id="menu-drop" class="menu-content">
+                    <a href="index.html">Home</a>
+                    <a class="active" href="about.html">About</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="./media/natalie-cheng-resume.pdf" target="_blank">Resume</a>
+                </div>
             </div>
-            <div id="menu-drop" class="menu-content">
-              <a href="index.html">Home</a>
-              <a class="active" href="about.html">About</a>
-              <a href="projects.html">Projects</a>
-              <a href="./media/natalie-cheng-resume.pdf" target="_blank">Resume</a>
-            </div>
-        </div>
     </header>
 
     <div class="text-box" style="padding-bottom: 50px;">
         <h1 style="text-align:center;">About Me</h1>
-        <p>Hello! I’m a second-year at Northwestern University pursuing a B.S. in Computer Science with a minor in Classics and certificate in Human-Computer Interaction. I’m an undergraduate researcher at Northwestern’s Technological Innovations for 
-            Inclusive Learning & Teaching Lab (TIILT) and a web developer for the Northwestern Undergraduate Research Journal (NURJ). This past summer, I worked as a Software Engineering intern at Fulcrum Global Technologies in Chicago, IL.</p>
-        <p>skills - i’m proficient in x languages</p>
-        <p>I love xxx and I’m interested in doing xxxx. this is shown my xxx projects. frontend -> web dev, game design -> course sequence</p>
-        <p>Interested in supporting accessibility in tech and STEM education in underrepresented groups, which I why I chose to work at TIILT, who’s mission is to xxx. At TIILT, I’m working on the xxx projects, which do xxx.</p>
-        <p>you can check out more of my projects here!</p>
-        <p>Outside of my academic and professional interests, I have plenty of hobbies to fill my free time! I love playing the guitar and writing songs, cooking for my roommates, performing aerial silks, and playing video games (my all-time favorites 
-            are Skyrim, RDR 2, Genshin Impact, and Stardew Valley). I’m from Hong Kong and Singapore, and despite the distance, I love the cross-cultural nature of studying abroad in the US.</p>
-        <p>Feel free to contact me at <a href="mailto:nataliecheng2026@u.northwestern.edu" target="_blank">nataliecheng2026@u.northwestern.edu</a></p>
+        <p>Hello! I’m a second-year at Northwestern University pursuing a <b>B.S. in Computer Science</b> with a minor
+            in <b>Classics</b> and a certificate in <b>Human-Computer Interaction</b>. My passion lies in the intersection between <b>design</b> and 
+            <b>programming</b>; I love not only interacting with users and designing for them but also tangibly bringing those designs to life. It is my 
+            dream to work in the field of <b>game design</b> – you can check out some of my games <a href="./projects.html">here</a>!</p>
+        <p>I am experienced in many coding languages such as C#, C++, Java, HTML, Javascript, and more. I am also
+            proficient in software such as Unity, React.js, Node.js, Figma, and more.</p>
+        <p>I’m also an undergraduate researcher at Northwestern's Technological Innovations for Inclusive Learning & Teaching Lab
+            (<a href="https://tiilt.northwestern.edu/"target="_blank">TIILT</a>) and a web developer for the Northwestern Undergraduate Research Journal (<a href="https://thenurj.com/"
+            target="_blank">NURJ</a>). This past summer, I worked as a Software Engineering intern at <a href="https://fulcrumgt.com/" target="_blank">Fulcrum 
+                Global Technologies</a> in Chicago, IL.</p>
+        <p>Beyond my technical pursuits, I am committed to supporting <b>accessibility in technology</b> and <b>STEM education for
+            underrepresented groups</b>. This is why I chose to work with TIILT, which is
+            dedicated to improving learning opportunities for students from underserved communities. Currently, I am
+            involved in the MusicNU and Gesturecraft projects at TIILT.</p>
+        <p>You can check out more of my projects <a href="./projects.html">here</a>!</p>
+        <p>Outside of my academic and professional interests, I have plenty of hobbies to fill my free time! I love
+            playing the guitar and writing songs, cooking for my roommates, performing aerial silks, and playing video
+            games (my all-time favorites
+            are Skyrim, RDR 2, Genshin Impact, and Stardew Valley). I’m from Hong Kong and Singapore, and despite the
+            distance, I love the cross-cultural nature of studying abroad in the US.</p>
+        <p>Feel free to contact me at <a href="mailto:nataliecheng2026@u.northwestern.edu"
+                target="_blank">nataliecheng2026@u.northwestern.edu</a>.</p>
     </div>
 
     <!-- footer -->
@@ -59,7 +75,9 @@
 
     <!-- scripts -->
     <script src="./scripts/fade.js"></script>
-    <script src="./scripts/menu.js"></script> </div>
+    <script src="./scripts/menu.js"></script>
+    </div>
     <script src="./scripts/scroll.js" defer></script>
 </body>
+
 </html>
