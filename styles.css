@@ -308,7 +308,7 @@ header .logo {
 .project-block {
     background-color: var(--background-alt);
     border-radius: 40px;
-    width: 25rem;
+    width: 22rem;
     min-height: 16rem;
     margin: 1.75rem;
     transition: all 0.2s ease;
@@ -331,8 +331,9 @@ header .logo {
 .project-block p {margin: 1.5rem;}
 
 .flex-box .project-block img{
-    width: 21.5rem;
+    width: 18rem;
     height: auto;
+    justify-content: center;
     margin-top: 0;
     margin-bottom: 0;
 }
