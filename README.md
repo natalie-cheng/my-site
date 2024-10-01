@@ -4,8 +4,8 @@ in progress! just a way to explore and practice frontend skills :)
 [website link](https://www.nataliercheng.com/)
 
 ## urgent to do:
-- fulcrum gt description
-- gesturecraft content
+- mucollective page
+- chronicles of dido page
 
 ## to do:
 - about section pictures?
@@ -17,7 +17,9 @@ in progress! just a way to explore and practice frontend skills :)
 - add alts and descriptions for pictures
 - adjust formatting for project pages
 - organize media folder cuz it's a mess
-- add emphasis text
+- hashtag project filter
+- light/dark mode
+- change background
 
 ### bugs:
 - fix hamburger menu sometimes not appearing
@@ -53,3 +55,6 @@ in progress! just a way to explore and practice frontend skills :)
 - added featured and inline resume
 - about section content
 - added hyperlinks
+- add emphasis text
+- fulcrum gt description
+- gesturecraft content
