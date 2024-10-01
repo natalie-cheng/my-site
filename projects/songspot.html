@@ -47,36 +47,43 @@
     <div class="projects-header">
         <h1 style="margin: 0">SongSpot</h1>
         <p style="color: var(--accent1)">May - June 2024 | COMP_SCI 310-0 Scalable Software Architechtures</p>
-        <p style="font-size: 20px;">Description. View the Github repository <a href="https://github.com/natalie-cheng/songspot" target="_blank">here</a>.</p>
+        <p style="font-size: 20px;">SongSpot was my final project for my Scalable Software Architechtures class. Working in a team of 3, our goal was to utilize 
+            AWS and the SpotifyAPI to create a responsive music analyzer and recommendations generator.
+            View the Github repository <a href="https://github.com/natalie-cheng/songspot" target="_blank">here</a>.</p>
         <p style="color: var(--accent3);font-family: 'laila-bold';">#python | #flask | #aws | #team</p>
-    </div>
-    <div class="flex-box">
-        <div class="project-image">
-            <img src="../media/pac-o-lantern-title.png" alt="Pac-O-Lantern title">
-        </div>
-        <p style="width:30rem; line-height: 2.25;">img description</p>
-    </div>
-    <div class="text-box">
-        <p>paragraph.</p>
     </div>
     <div class="flex-box">
         <div class="text-box" style="margin:0">
             <h2>Features</h2>
-            <ul>
-                <li>List.</li>
-            </ul>
+            <p>SongSpot completes 6 functions:</p>
+            <ol>
+                <li>Prints out the user's top 10 artists.</li>
+                <li>Prints out the user's top 10 tracks.</li>
+                <li>Analyzes the genres of the user's music taste and prints out a list of their top genres.</li>
+                <li>Computes the popularity of the user's music taste and prints out a popularity score.</li>
+                <li>Generates a user-given number of recommendations.</li>
+                <li>Prints out all songs recommended during the session, and optionally makes them a playlist in the user's Spotify account.</li>
+            </ol>
         </div>
         <div class="project-image">
-            <img src="../media/pac-o-lantern-play.png">
+            <img src="../media/songspot-6.png">
         </div>
+    </div>
+    <div class="text-box">
+        <p>The program runs on a Flask application deployed to an EC2 server. The UI consists of simple print statements on the Flask client-side, and every function 
+            utilizes and interacts with the Spotify API and database. In function 5, recommeded songs are stored in a database and referenced so that no songs are recommeded more than once in a given session. 
+            In function 6, all the songs recommended during the session are retrieved and printed out. The user can then choose to have SongSpot create a playlist in their account with these songs..</p>
     </div>
     <div>
         <div class="text-box">
-            <h2>Additional Media</h2>
+            <h2 style="margin-bottom: 0;">Additional Media</h2>
         </div>
         <div class="flex-box">
-            <img src="../media/pac-o-lantern-win.png">
-            <img src="../media/pac-o-lantern-loss.png">
+            <img src="../media/songspot-5.png">
+            <img src="../media/songspot-4.png">
+            <img src="../media/songspot-2.png">
+            <img src="../media/songspot-1.png">
+            <img src="../media/songspot-3.png">
         </div>
     </div>
 
